@@ -9,8 +9,8 @@
 
 using namespace std;
 
-static itemthreshold = 5;
-static capacitythreshold = 5;
+static unsigned int itemthreshold = 5;
+static int capacitythreshold = 30;
 
 struct Problem{
   vector<int> weights;
@@ -19,16 +19,29 @@ struct Problem{
 };
 struct Solution{
   vector<int> items;
+  vector<int> weights;
+  vector<int> values;
   vector<vector<int>> knapsackvals;
   int totalweight;
   int totalvalue;
+  int capacity;
   int nanotime;
-}
+};
 
 //split a string by a space
 vector<string> strsplit(string str){
-  istringstream iss(str);
-  return vector<string> results((istream_iterator<string>(iss)), istream_iterator<string>());
+  vector<string> strs;
+  string tempstr = "";
+  for(unsigned int i = 0; i < str.length(); i++){
+    char currentchar = str.at(i);
+    if(currentchar!=' ') tempstr.append(string(1, currentchar));
+    else{
+      strs.push_back(tempstr);
+      tempstr = "";
+    }
+  }
+  if(tempstr!="" && tempstr!=" ") strs.push_back(tempstr);
+  return strs;
 }
 
 //returns the string for the first line of a text file
@@ -44,17 +57,17 @@ vector<Problem> getProblems(string filename){
     getline(file, str);
     counter++;
     if(counter%3==1){ //weights
-      p.weights={}
+      p.weights={};
       vector<string> weightstrs = strsplit(str);
-      for(int i = 0; i < weightstrs.length(); i++){
-        p.weights.push_back(stoi(str));
+      for(unsigned int i = 0; i < weightstrs.size(); i++){
+        p.weights.push_back(stoi(weightstrs[i]));
       }
     }
     else if(counter%3==2){ //values
-      p.values={}
+      p.values={};
       vector<string> valuestrs = strsplit(str);
-      for(int i = 0; i < valuestrs.length(); i++){
-        p.values.push_back(stoi(str));
+      for(unsigned int i = 0; i < valuestrs.size(); i++){
+        p.values.push_back(stoi(valuestrs[i]));
       }
     }
     else{ //capacity
@@ -62,6 +75,8 @@ vector<Problem> getProblems(string filename){
       problems.push_back(p);
     }
   }
+
+
   return problems;
 }
 
@@ -74,14 +89,14 @@ Solution knapsack(Problem problem){
   int capacity = problem.capacity;
   vector<vector<int>> knapsackvals;
   //initialize knapsackvals
-  for(unsigned int i = 0; i <= weight.length(); i++){
+  for(unsigned int i = 0; i <= weight.size(); i++){
     vector<int> temp; //temporary 1D vector to be added as an element of the 2D vector knapsackvals
-    for(unsigned int j = 0; j <= capacity; j++){
+    for(int j = 0; j <= capacity; j++){
       temp.push_back(-1);
     }
     knapsackvals.push_back(temp);
   }
-  int maxi = weight.length(); //number of items
+  int maxi = weight.size(); //number of items
   for(int i = 0; i <= maxi; i++){
     for(int c = 0; c <= capacity; c++){
       if(i==0||c==0) knapsackvals[i][c]=0;
@@ -95,15 +110,17 @@ Solution knapsack(Problem problem){
   }
   //iterate through populated knapsackvals for solution
   vector<int> items;
+  vector<int> sweights;
+  vector<int> svalues;
   int totalweight = 0;
   int totalvalue = 0;
   bool done = false;
-  int i = weight.length();
+  int i = weight.size();
   int c = capacity;
-  while(!done)
-      int weighti = weight[i-1]
-      int profiti = value[i-1]
-      if(i==0||c==0) done = true
+  while(!done){
+      int weighti = weight[i-1];
+      int profiti = value[i-1];
+      if(i==0||c==0) done = true;
       else if(weighti>c) i = i - 1;
       else if(knapsackvals[i-1][c]<knapsackvals[i-1][c-weighti]+profiti){
         items.push_back(i);
@@ -111,15 +128,21 @@ Solution knapsack(Problem problem){
         c = c - weighti;
         totalweight+=weighti;
         totalvalue+=profiti;
+        sweights.push_back(weighti);
+        svalues.push_back(profiti);
+      }
       else i = i - 1;
   }
   Solution solution;
   solution.items = items;
-  if(value.length()<=itemthreshold&&capacity<=capacitythreshold){
+  if(value.size()<=itemthreshold&&capacity<=capacitythreshold){
     solution.knapsackvals = knapsackvals;
   }
   solution.totalweight = totalweight;
   solution.totalvalue = totalvalue;
+  solution.weights = sweights;
+  solution.values = svalues;
+  solution.capacity = problem.capacity;
   return solution;
 }
 
@@ -127,8 +150,8 @@ int main(int argc, char **argv){
   //generate the solutions
   vector<Problem> problems = getProblems("items.txt");
   vector<Solution> solutions;
-  int totalruntime;
-  for(int i = 0; i < problems.length(); i++){
+  int totalruntime = 0;
+  for(unsigned int i = 0; i < problems.size(); i++){
     //run the algorithm, and compute the time taken
     chrono::high_resolution_clock::time_point start = chrono::high_resolution_clock::now(); //clock object from chrono library
     Solution solution = knapsack(problems[i]);
@@ -140,38 +163,54 @@ int main(int argc, char **argv){
   }
   //write solutions to file
   ofstream file;
-  file.open("solutions_bottomup");
-  file << "Number of Problems: " << to_string();
+  file.open("solutions_bottomup.txt");
+
+  //top of file
+  file << "Number of Problems: " << to_string(problems.size()) << endl;
   string totalruntimestr = to_string(totalruntime);
   file << "Total Runtime: " << totalruntimestr << endl;
-  string avgruntimestr = to_string(totalruntime)
+  string avgruntimestr = to_string(totalruntime/problems.size());
+  file << "Average Runtime: " << avgruntimestr << endl;
 
-  for(int i = 0; i < solutions.length(); i++){
-
-  }
-
-
-
-
-  //write to output2.txt
-  ofstream file; //output file object
-  file.open(output);
-  //Output case for strings <= size 10
-  if(strx.length()<=10 and stry.length()<=10){
-    for(unsigned int i = 0; i <= strx.length(); i++){
-      string s; //temp string for a line of the table to display
-      for(unsigned int j = 0; j <= stry.length(); j++){
-        s.append(to_string(knapsackvals[i][j])+" ");
-      }
-      file << s << endl;
+  //individual solutions to problems
+  for(unsigned int i = 0; i < solutions.size(); i++){
+    file << "---------------------------------------" << endl;
+    Solution s = solutions[i];
+    int itemindex = s.items.size()-1; //used to print items in proper order
+    file << "Solution to Problem " << i+1 << endl;
+    file << "Items: ";
+    for(unsigned int j = 0; j < s.items.size(); j++){
+      file << s.items[itemindex-j] << " ";
     }
-    file << knapsack(strx, stry) << endl;
+    file << endl;
+    file << "Weights: ";
+    for(unsigned int j = 0; j < s.items.size(); j++){
+      file << s.weights[itemindex-j] << " ";
+    }
+    file << endl;
+    file << "Values: ";
+    for(unsigned int j = 0; j < s.items.size(); j++){
+      file << s.values[itemindex-j] << " ";
+    }
+    file << endl;
+    file << "Total Weight: " << s.totalweight << endl;
+    file << "Total Value: " << s.totalvalue << endl;
+    file << "Nanoseconds: " << s.nanotime << endl;
+    file << endl;
+
+    //if item & capacity values below threshold, print matrix
+    unsigned int toti = s.knapsackvals.size();
+    int totc = s.capacity;
+    if(toti <= itemthreshold && totc <= capacitythreshold){
+      for(unsigned int j = 0; j < toti; j++){
+        for(int k = 0; k < totc; k++){
+          file << s.knapsackvals[j][k] << " ";
+        }
+        file << endl;
+      }
+    }
   }
-  //knapsack length
-  else file << substrlen << endl;
-  //Running time
-  if(time_taken.count()==0) file << "Less than 100 nanoseconds" << endl;
-  else file << time_taken.count() << " nanoseconds"<< endl;
+  file << endl;
   file.close();
   return 0;
 }
