@@ -147,8 +147,10 @@ Solution knapsack(Problem problem){
 }
 
 int main(int argc, char **argv){
+  string argv[1] = inputstr;
+  string argv[2] = outputstr;
   //generate the solutions
-  vector<Problem> problems = getProblems("items.txt");
+  vector<Problem> problems = getProblems(inputstr);
   vector<Solution> solutions;
   int totalruntime = 0;
   for(unsigned int i = 0; i < problems.size(); i++){
@@ -163,7 +165,7 @@ int main(int argc, char **argv){
   }
   //write solutions to file
   ofstream file;
-  file.open("solutions_bottomup.txt");
+  file.open(outputstr);
 
   //top of file
   file << "Number of Problems: " << to_string(problems.size()) << endl;

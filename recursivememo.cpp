@@ -80,7 +80,16 @@ vector<Problem> getProblems(string filename){
   return problems;
 }
 
-//Recursive Solution with memoization to the knapsack problem
+
+int getKnapsackVal(vector<vector<int>> & knapsack, int i, int c, Problem problem){
+  if(knapsack[i][c]>=0) return knapsack[i][c];
+  else if(problem.weights[i] > c){
+    
+  }
+}
+
+
+//Bottom-Up Solution to the knapsack problem
 //outputs the length of the knapsack of the two strings as an integer
 //Takes in the two input strings, can be any length including 0
 Solution knapsack(Problem problem){
@@ -147,8 +156,10 @@ Solution knapsack(Problem problem){
 }
 
 int main(int argc, char **argv){
+  string argv[1] = inputstr;
+  string argv[2] = outputstr;
   //generate the solutions
-  vector<Problem> problems = getProblems("items.txt");
+  vector<Problem> problems = getProblems(inputstr);
   vector<Solution> solutions;
   int totalruntime = 0;
   for(unsigned int i = 0; i < problems.size(); i++){
@@ -163,7 +174,7 @@ int main(int argc, char **argv){
   }
   //write solutions to file
   ofstream file;
-  file.open("solutions_bottomup.txt");
+  file.open(outputstr);
 
   //top of file
   file << "Number of Problems: " << to_string(problems.size()) << endl;
