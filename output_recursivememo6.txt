@@ -1,0 +1,454 @@
+Number of Problems: 50
+Total Runtime: 0
+Average Runtime: 0
+---------------------------------------
+Solution to Problem 1
+Items: 4 
+Weights: 1 
+Values: 27 
+Total Weight: 1
+Total Value: 27
+Nanoseconds: 0
+
+---------------------------------------
+Solution to Problem 2
+Items: 4 5 
+Weights: 1 0 
+Values: 84 6 
+Total Weight: 1
+Total Value: 90
+Nanoseconds: 0
+
+---------------------------------------
+Solution to Problem 3
+Items: 2 
+Weights: 1 
+Values: 12 
+Total Weight: 1
+Total Value: 12
+Nanoseconds: 0
+
+---------------------------------------
+Solution to Problem 4
+Items: 4 
+Weights: 1 
+Values: 49 
+Total Weight: 1
+Total Value: 49
+Nanoseconds: 0
+
+---------------------------------------
+Solution to Problem 5
+Items: 3 4 
+Weights: 0 0 
+Values: 10 39 
+Total Weight: 0
+Total Value: 49
+Nanoseconds: 0
+
+---------------------------------------
+Solution to Problem 6
+Items: 1 
+Weights: 1 
+Values: 78 
+Total Weight: 1
+Total Value: 78
+Nanoseconds: 0
+
+---------------------------------------
+Solution to Problem 7
+Items: 1 5 
+Weights: 0 0 
+Values: 7 78 
+Total Weight: 0
+Total Value: 85
+Nanoseconds: 0
+
+---------------------------------------
+Solution to Problem 8
+Items: 3 
+Weights: 0 
+Values: 73 
+Total Weight: 0
+Total Value: 73
+Nanoseconds: 0
+
+---------------------------------------
+Solution to Problem 9
+Items: 1 3 4 
+Weights: 1 0 0 
+Values: 96 22 98 
+Total Weight: 1
+Total Value: 216
+Nanoseconds: 0
+
+---------------------------------------
+Solution to Problem 10
+Items: 1 
+Weights: 0 
+Values: 40 
+Total Weight: 0
+Total Value: 40
+Nanoseconds: 0
+
+---------------------------------------
+Solution to Problem 11
+Items: 5 
+Weights: 1 
+Values: 79 
+Total Weight: 1
+Total Value: 79
+Nanoseconds: 0
+
+---------------------------------------
+Solution to Problem 12
+Items: 4 
+Weights: 1 
+Values: 9 
+Total Weight: 1
+Total Value: 9
+Nanoseconds: 0
+
+---------------------------------------
+Solution to Problem 13
+Items: 1 3 
+Weights: 1 0 
+Values: 84 65 
+Total Weight: 1
+Total Value: 149
+Nanoseconds: 0
+
+---------------------------------------
+Solution to Problem 14
+Items: 1 2 
+Weights: 0 0 
+Values: 59 76 
+Total Weight: 0
+Total Value: 135
+Nanoseconds: 0
+
+---------------------------------------
+Solution to Problem 15
+Items: 5 
+Weights: 1 
+Values: 63 
+Total Weight: 1
+Total Value: 63
+Nanoseconds: 0
+
+---------------------------------------
+Solution to Problem 16
+Items: 2 5 
+Weights: 1 0 
+Values: 94 61 
+Total Weight: 1
+Total Value: 155
+Nanoseconds: 0
+
+---------------------------------------
+Solution to Problem 17
+Items: 1 5 
+Weights: 1 0 
+Values: 16 63 
+Total Weight: 1
+Total Value: 79
+Nanoseconds: 0
+
+---------------------------------------
+Solution to Problem 18
+Items: 2 
+Weights: 0 
+Values: 92 
+Total Weight: 0
+Total Value: 92
+Nanoseconds: 0
+
+---------------------------------------
+Solution to Problem 19
+Items: 3 5 
+Weights: 0 0 
+Values: 44 84 
+Total Weight: 0
+Total Value: 128
+Nanoseconds: 0
+
+---------------------------------------
+Solution to Problem 20
+Items: 
+Weights: 
+Values: 
+Total Weight: 0
+Total Value: 0
+Nanoseconds: 0
+
+---------------------------------------
+Solution to Problem 21
+Items: 4 
+Weights: 0 
+Values: 10 
+Total Weight: 0
+Total Value: 10
+Nanoseconds: 0
+
+---------------------------------------
+Solution to Problem 22
+Items: 2 5 
+Weights: 1 0 
+Values: 47 46 
+Total Weight: 1
+Total Value: 93
+Nanoseconds: 0
+
+---------------------------------------
+Solution to Problem 23
+Items: 3 4 
+Weights: 0 0 
+Values: 89 14 
+Total Weight: 0
+Total Value: 103
+Nanoseconds: 0
+
+---------------------------------------
+Solution to Problem 24
+Items: 2 
+Weights: 1 
+Values: 65 
+Total Weight: 1
+Total Value: 65
+Nanoseconds: 0
+
+---------------------------------------
+Solution to Problem 25
+Items: 4 
+Weights: 1 
+Values: 98 
+Total Weight: 1
+Total Value: 98
+Nanoseconds: 0
+
+---------------------------------------
+Solution to Problem 26
+Items: 4 
+Weights: 1 
+Values: 62 
+Total Weight: 1
+Total Value: 62
+Nanoseconds: 0
+
+---------------------------------------
+Solution to Problem 27
+Items: 2 
+Weights: 1 
+Values: 92 
+Total Weight: 1
+Total Value: 92
+Nanoseconds: 0
+
+---------------------------------------
+Solution to Problem 28
+Items: 3 4 5 
+Weights: 1 0 0 
+Values: 72 82 26 
+Total Weight: 1
+Total Value: 180
+Nanoseconds: 0
+
+---------------------------------------
+Solution to Problem 29
+Items: 1 5 
+Weights: 1 0 
+Values: 31 85 
+Total Weight: 1
+Total Value: 116
+Nanoseconds: 0
+
+---------------------------------------
+Solution to Problem 30
+Items: 5 
+Weights: 1 
+Values: 11 
+Total Weight: 1
+Total Value: 11
+Nanoseconds: 0
+
+---------------------------------------
+Solution to Problem 31
+Items: 4 
+Weights: 1 
+Values: 47 
+Total Weight: 1
+Total Value: 47
+Nanoseconds: 0
+
+---------------------------------------
+Solution to Problem 32
+Items: 1 
+Weights: 0 
+Values: 91 
+Total Weight: 0
+Total Value: 91
+Nanoseconds: 0
+
+---------------------------------------
+Solution to Problem 33
+Items: 3 
+Weights: 1 
+Values: 70 
+Total Weight: 1
+Total Value: 70
+Nanoseconds: 0
+
+---------------------------------------
+Solution to Problem 34
+Items: 
+Weights: 
+Values: 
+Total Weight: 0
+Total Value: 0
+Nanoseconds: 0
+
+---------------------------------------
+Solution to Problem 35
+Items: 1 2 
+Weights: 0 0 
+Values: 11 22 
+Total Weight: 0
+Total Value: 33
+Nanoseconds: 0
+
+---------------------------------------
+Solution to Problem 36
+Items: 1 2 4 
+Weights: 1 0 0 
+Values: 72 57 27 
+Total Weight: 1
+Total Value: 156
+Nanoseconds: 0
+
+---------------------------------------
+Solution to Problem 37
+Items: 5 
+Weights: 1 
+Values: 55 
+Total Weight: 1
+Total Value: 55
+Nanoseconds: 0
+
+---------------------------------------
+Solution to Problem 38
+Items: 1 3 
+Weights: 1 0 
+Values: 9 77 
+Total Weight: 1
+Total Value: 86
+Nanoseconds: 0
+
+---------------------------------------
+Solution to Problem 39
+Items: 2 4 5 
+Weights: 1 0 0 
+Values: 31 83 91 
+Total Weight: 1
+Total Value: 205
+Nanoseconds: 0
+
+---------------------------------------
+Solution to Problem 40
+Items: 1 
+Weights: 0 
+Values: 78 
+Total Weight: 0
+Total Value: 78
+Nanoseconds: 0
+
+---------------------------------------
+Solution to Problem 41
+Items: 2 4 
+Weights: 1 0 
+Values: 71 70 
+Total Weight: 1
+Total Value: 141
+Nanoseconds: 0
+
+---------------------------------------
+Solution to Problem 42
+Items: 1 
+Weights: 1 
+Values: 58 
+Total Weight: 1
+Total Value: 58
+Nanoseconds: 0
+
+---------------------------------------
+Solution to Problem 43
+Items: 2 3 4 
+Weights: 1 0 0 
+Values: 41 46 56 
+Total Weight: 1
+Total Value: 143
+Nanoseconds: 0
+
+---------------------------------------
+Solution to Problem 44
+Items: 3 
+Weights: 1 
+Values: 81 
+Total Weight: 1
+Total Value: 81
+Nanoseconds: 0
+
+---------------------------------------
+Solution to Problem 45
+Items: 5 
+Weights: 1 
+Values: 3 
+Total Weight: 1
+Total Value: 3
+Nanoseconds: 0
+
+---------------------------------------
+Solution to Problem 46
+Items: 1 3 
+Weights: 1 0 
+Values: 52 32 
+Total Weight: 1
+Total Value: 84
+Nanoseconds: 0
+
+---------------------------------------
+Solution to Problem 47
+Items: 
+Weights: 
+Values: 
+Total Weight: 0
+Total Value: 0
+Nanoseconds: 0
+
+---------------------------------------
+Solution to Problem 48
+Items: 5 
+Weights: 0 
+Values: 84 
+Total Weight: 0
+Total Value: 84
+Nanoseconds: 0
+
+---------------------------------------
+Solution to Problem 49
+Items: 5 
+Weights: 1 
+Values: 59 
+Total Weight: 1
+Total Value: 59
+Nanoseconds: 0
+
+---------------------------------------
+Solution to Problem 50
+Items: 1 2 4 5 
+Weights: 1 0 0 0 
+Values: 29 76 76 52 
+Total Weight: 1
+Total Value: 233
+Nanoseconds: 0
+
+

@@ -147,8 +147,8 @@ Solution knapsack(Problem problem){
 }
 
 int main(int argc, char **argv){
-  string argv[1] = inputstr;
-  string argv[2] = outputstr;
+  string inputstr = argv[1];
+  string outputstr = argv[2];
   //generate the solutions
   vector<Problem> problems = getProblems(inputstr);
   vector<Solution> solutions;
@@ -206,7 +206,22 @@ int main(int argc, char **argv){
     if(toti <= itemthreshold && totc <= capacitythreshold){
       for(unsigned int j = 0; j < toti; j++){
         for(int k = 0; k < totc; k++){
-          file << s.knapsackvals[j][k] << " ";
+          int tempval = s.knapsackvals[j][k];
+          string aspace, val;
+          if(tempval < 0){
+            aspace = " ";
+            val = "/";
+          }
+          else if(tempval < 10){
+            aspace = " ";
+            val = to_string(tempval);
+          }
+          else{
+            aspace = "";
+            val = to_string(tempval);
+          }
+
+          file << aspace << val << " ";
         }
         file << endl;
       }

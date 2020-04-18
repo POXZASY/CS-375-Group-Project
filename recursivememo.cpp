@@ -80,11 +80,20 @@ vector<Problem> getProblems(string filename){
   return problems;
 }
 
-
+//populates the array and then returns the necessary value
 int getKnapsackVal(vector<vector<int>> & knapsack, int i, int c, Problem problem){
+  int wi = problem.weights[i-1];
+  int pi = problem.values[i-1];
   if(knapsack[i][c]>=0) return knapsack[i][c];
-  else if(problem.weights[i] > c){
-    
+  else if(wi > c){
+    knapsack[i][c] = getKnapsackVal(knapsack, i-1, c, problem);
+    return knapsack[i][c];
+  }
+  else{
+    int k1 = getKnapsackVal(knapsack, i-1, c, problem);
+    int k2 = getKnapsackVal(knapsack, i-1, c-wi, problem);
+    knapsack[i][c] = max(k1, k2+pi);
+    return knapsack[i][c];
   }
 }
 
@@ -101,22 +110,17 @@ Solution knapsack(Problem problem){
   for(unsigned int i = 0; i <= weight.size(); i++){
     vector<int> temp; //temporary 1D vector to be added as an element of the 2D vector knapsackvals
     for(int j = 0; j <= capacity; j++){
-      temp.push_back(-1);
+      if(i==0 || j==0) temp.push_back(0);
+      else temp.push_back(-1);
     }
     knapsackvals.push_back(temp);
   }
-  int maxi = weight.size(); //number of items
-  for(int i = 0; i <= maxi; i++){
-    for(int c = 0; c <= capacity; c++){
-      if(i==0||c==0) knapsackvals[i][c]=0;
-      else{
-        int weighti = weight[i-1];
-        int profiti = value[i-1];
-        if(weighti > c) knapsackvals[i][c]=knapsackvals[i-1][c];
-        else knapsackvals[i][c]=max(knapsackvals[i-1][c], knapsackvals[i-1][c-weighti]+profiti);
-      }
-    }
-  }
+
+
+  //populate the array
+  getKnapsackVal(knapsackvals, weight.size(), capacity, problem);
+
+
   //iterate through populated knapsackvals for solution
   vector<int> items;
   vector<int> sweights;
@@ -142,6 +146,7 @@ Solution knapsack(Problem problem){
       }
       else i = i - 1;
   }
+
   Solution solution;
   solution.items = items;
   if(value.size()<=itemthreshold&&capacity<=capacitythreshold){
@@ -156,8 +161,8 @@ Solution knapsack(Problem problem){
 }
 
 int main(int argc, char **argv){
-  string argv[1] = inputstr;
-  string argv[2] = outputstr;
+  string inputstr = argv[1];
+  string outputstr = argv[2];
   //generate the solutions
   vector<Problem> problems = getProblems(inputstr);
   vector<Solution> solutions;
@@ -215,7 +220,22 @@ int main(int argc, char **argv){
     if(toti <= itemthreshold && totc <= capacitythreshold){
       for(unsigned int j = 0; j < toti; j++){
         for(int k = 0; k < totc; k++){
-          file << s.knapsackvals[j][k] << " ";
+          int tempval = s.knapsackvals[j][k];
+          string aspace, val;
+          if(tempval < 0){
+            aspace = " ";
+            val = "/";
+          }
+          else if(tempval < 10){
+            aspace = " ";
+            val = to_string(tempval);
+          }
+          else{
+            aspace = "";
+            val = to_string(tempval);
+          }
+
+          file << aspace << val << " ";
         }
         file << endl;
       }
