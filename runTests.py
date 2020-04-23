@@ -1,7 +1,7 @@
 import os
 import subprocess
 
-numtests = 7
+numtests = 6
 
 dir = os.getcwd()
 dir1 = dir + "\\bottomup.exe"
