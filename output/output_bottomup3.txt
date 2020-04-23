@@ -1,6 +1,6 @@
 Number of Problems: 50
-Total Runtime: 204700 nanoseconds
-Average Runtime: 4094 nanoseconds
+Total Runtime: 173200 nanoseconds
+Average Runtime: 3464 nanoseconds
 ---------------------------------------
 Solution to Problem 1
 Items: 
@@ -8,7 +8,7 @@ Weights:
 Values: 
 Total Weight: 0
 Total Value: 0
-Nanoseconds: 14100
+Nanoseconds: 6200
 
  0  0  0  0  0 
  0  0  0  0  0 
@@ -19,7 +19,7 @@ Weights: 3
 Values: 14 
 Total Weight: 3
 Total Value: 14
-Nanoseconds: 18300
+Nanoseconds: 9600
 
  0  0  0  0  0 
  0  0  0 14 14 
@@ -30,7 +30,7 @@ Weights:
 Values: 
 Total Weight: 0
 Total Value: 0
-Nanoseconds: 4000
+Nanoseconds: 3200
 
  0  0  0  0  0 
  0  0  0  0  0 
@@ -41,7 +41,7 @@ Weights: 2
 Values: 74 
 Total Weight: 2
 Total Value: 74
-Nanoseconds: 4100
+Nanoseconds: 2900
 
  0  0  0  0  0 
  0  0 74 74 74 
@@ -52,7 +52,7 @@ Weights:
 Values: 
 Total Weight: 0
 Total Value: 0
-Nanoseconds: 3300
+Nanoseconds: 2200
 
  0  0  0  0  0 
  0  0  0  0  0 
@@ -63,7 +63,7 @@ Weights:
 Values: 
 Total Weight: 0
 Total Value: 0
-Nanoseconds: 3100
+Nanoseconds: 2200
 
  0  0  0  0  0 
  0  0  0  0  0 
@@ -74,7 +74,7 @@ Weights:
 Values: 
 Total Weight: 0
 Total Value: 0
-Nanoseconds: 3300
+Nanoseconds: 2100
 
  0  0  0  0  0 
  0  0  0  0  0 
@@ -85,7 +85,7 @@ Weights:
 Values: 
 Total Weight: 0
 Total Value: 0
-Nanoseconds: 4600
+Nanoseconds: 2700
 
  0  0  0  0  0 
  0  0  0  0  0 
@@ -96,7 +96,7 @@ Weights:
 Values: 
 Total Weight: 0
 Total Value: 0
-Nanoseconds: 2800
+Nanoseconds: 1800
 
  0  0  0  0  0 
  0  0  0  0  0 
@@ -107,7 +107,7 @@ Weights:
 Values: 
 Total Weight: 0
 Total Value: 0
-Nanoseconds: 2800
+Nanoseconds: 1700
 
  0  0  0  0  0 
  0  0  0  0  0 
@@ -118,7 +118,7 @@ Weights: 2
 Values: 68 
 Total Weight: 2
 Total Value: 68
-Nanoseconds: 8200
+Nanoseconds: 2100
 
  0  0  0  0  0 
  0  0 68 68 68 
@@ -129,7 +129,7 @@ Weights: 5
 Values: 92 
 Total Weight: 5
 Total Value: 92
-Nanoseconds: 3600
+Nanoseconds: 4500
 
  0  0  0  0  0 
  0  0  0  0  0 
@@ -140,7 +140,7 @@ Weights:
 Values: 
 Total Weight: 0
 Total Value: 0
-Nanoseconds: 2900
+Nanoseconds: 1900
 
  0  0  0  0  0 
  0  0  0  0  0 
@@ -151,7 +151,7 @@ Weights:
 Values: 
 Total Weight: 0
 Total Value: 0
-Nanoseconds: 2700
+Nanoseconds: 1700
 
  0  0  0  0  0 
  0  0  0  0  0 
@@ -162,7 +162,7 @@ Weights: 4
 Values: 90 
 Total Weight: 4
 Total Value: 90
-Nanoseconds: 3800
+Nanoseconds: 2200
 
  0  0  0  0  0 
  0  0  0  0 90 
@@ -173,7 +173,7 @@ Weights:
 Values: 
 Total Weight: 0
 Total Value: 0
-Nanoseconds: 2600
+Nanoseconds: 1800
 
  0  0  0  0  0 
  0  0  0  0  0 
@@ -184,7 +184,7 @@ Weights:
 Values: 
 Total Weight: 0
 Total Value: 0
-Nanoseconds: 2700
+Nanoseconds: 57400
 
  0  0  0  0  0 
  0  0  0  0  0 
@@ -195,7 +195,7 @@ Weights:
 Values: 
 Total Weight: 0
 Total Value: 0
-Nanoseconds: 2700
+Nanoseconds: 1800
 
  0  0  0  0  0 
  0  0  0  0  0 
@@ -206,7 +206,7 @@ Weights:
 Values: 
 Total Weight: 0
 Total Value: 0
-Nanoseconds: 2700
+Nanoseconds: 1800
 
  0  0  0  0  0 
  0  0  0  0  0 
@@ -217,7 +217,7 @@ Weights: 2
 Values: 12 
 Total Weight: 2
 Total Value: 12
-Nanoseconds: 3400
+Nanoseconds: 2200
 
  0  0  0  0  0 
  0  0 12 12 12 
@@ -228,7 +228,7 @@ Weights: 5
 Values: 25 
 Total Weight: 5
 Total Value: 25
-Nanoseconds: 3100
+Nanoseconds: 2100
 
  0  0  0  0  0 
  0  0  0  0  0 
@@ -239,7 +239,7 @@ Weights: 4
 Values: 74 
 Total Weight: 4
 Total Value: 74
-Nanoseconds: 3000
+Nanoseconds: 2200
 
  0  0  0  0  0 
  0  0  0  0 74 
@@ -250,7 +250,7 @@ Weights: 4
 Values: 58 
 Total Weight: 4
 Total Value: 58
-Nanoseconds: 3200
+Nanoseconds: 2200
 
  0  0  0  0  0 
  0  0  0  0 58 
@@ -261,7 +261,7 @@ Weights: 2
 Values: 94 
 Total Weight: 2
 Total Value: 94
-Nanoseconds: 3100
+Nanoseconds: 2300
 
  0  0  0  0  0 
  0  0 94 94 94 
@@ -272,7 +272,7 @@ Weights:
 Values: 
 Total Weight: 0
 Total Value: 0
-Nanoseconds: 2800
+Nanoseconds: 1800
 
  0  0  0  0  0 
  0  0  0  0  0 
@@ -283,7 +283,7 @@ Weights:
 Values: 
 Total Weight: 0
 Total Value: 0
-Nanoseconds: 2700
+Nanoseconds: 1800
 
  0  0  0  0  0 
  0  0  0  0  0 
@@ -294,7 +294,7 @@ Weights: 3
 Values: 54 
 Total Weight: 3
 Total Value: 54
-Nanoseconds: 3500
+Nanoseconds: 2100
 
  0  0  0  0  0 
  0  0  0 54 54 
@@ -305,7 +305,7 @@ Weights:
 Values: 
 Total Weight: 0
 Total Value: 0
-Nanoseconds: 2600
+Nanoseconds: 1800
 
  0  0  0  0  0 
  0  0  0  0  0 
@@ -316,7 +316,7 @@ Weights:
 Values: 
 Total Weight: 0
 Total Value: 0
-Nanoseconds: 2500
+Nanoseconds: 1800
 
  0  0  0  0  0 
  0  0  0  0  0 
@@ -327,7 +327,7 @@ Weights: 2
 Values: 51 
 Total Weight: 2
 Total Value: 51
-Nanoseconds: 3500
+Nanoseconds: 2200
 
  0  0  0  0  0 
  0  0 51 51 51 
@@ -338,7 +338,7 @@ Weights:
 Values: 
 Total Weight: 0
 Total Value: 0
-Nanoseconds: 2800
+Nanoseconds: 2100
 
  0  0  0  0  0 
  0  0  0  0  0 
@@ -349,7 +349,7 @@ Weights:
 Values: 
 Total Weight: 0
 Total Value: 0
-Nanoseconds: 4600
+Nanoseconds: 1900
 
  0  0  0  0  0 
  0  0  0  0  0 
@@ -360,7 +360,7 @@ Weights:
 Values: 
 Total Weight: 0
 Total Value: 0
-Nanoseconds: 2400
+Nanoseconds: 2800
 
  0  0  0  0  0 
  0  0  0  0  0 
@@ -371,7 +371,7 @@ Weights:
 Values: 
 Total Weight: 0
 Total Value: 0
-Nanoseconds: 3100
+Nanoseconds: 2100
 
  0  0  0  0  0 
  0  0  0  0  0 
@@ -382,7 +382,7 @@ Weights:
 Values: 
 Total Weight: 0
 Total Value: 0
-Nanoseconds: 2500
+Nanoseconds: 1700
 
  0  0  0  0  0 
  0  0  0  0  0 
@@ -393,7 +393,7 @@ Weights: 5
 Values: 39 
 Total Weight: 5
 Total Value: 39
-Nanoseconds: 3500
+Nanoseconds: 2200
 
  0  0  0  0  0 
  0  0  0  0  0 
@@ -404,7 +404,7 @@ Weights:
 Values: 
 Total Weight: 0
 Total Value: 0
-Nanoseconds: 2600
+Nanoseconds: 1800
 
  0  0  0  0  0 
  0  0  0  0  0 
@@ -415,7 +415,7 @@ Weights:
 Values: 
 Total Weight: 0
 Total Value: 0
-Nanoseconds: 2400
+Nanoseconds: 1700
 
  0  0  0  0  0 
  0  0  0  0  0 
@@ -426,7 +426,7 @@ Weights: 5
 Values: 67 
 Total Weight: 5
 Total Value: 67
-Nanoseconds: 3200
+Nanoseconds: 2300
 
  0  0  0  0  0 
  0  0  0  0  0 
@@ -437,7 +437,7 @@ Weights: 4
 Values: 16 
 Total Weight: 4
 Total Value: 16
-Nanoseconds: 3100
+Nanoseconds: 2100
 
  0  0  0  0  0 
  0  0  0  0 16 
@@ -448,7 +448,7 @@ Weights: 3
 Values: 23 
 Total Weight: 3
 Total Value: 23
-Nanoseconds: 3300
+Nanoseconds: 2100
 
  0  0  0  0  0 
  0  0  0 23 23 
@@ -459,7 +459,7 @@ Weights: 1
 Values: 25 
 Total Weight: 1
 Total Value: 25
-Nanoseconds: 21600
+Nanoseconds: 2200
 
  0  0  0  0  0 
  0 25 25 25 25 
@@ -470,7 +470,7 @@ Weights:
 Values: 
 Total Weight: 0
 Total Value: 0
-Nanoseconds: 2800
+Nanoseconds: 1700
 
  0  0  0  0  0 
  0  0  0  0  0 
@@ -481,7 +481,7 @@ Weights:
 Values: 
 Total Weight: 0
 Total Value: 0
-Nanoseconds: 2600
+Nanoseconds: 1800
 
  0  0  0  0  0 
  0  0  0  0  0 
@@ -492,7 +492,7 @@ Weights:
 Values: 
 Total Weight: 0
 Total Value: 0
-Nanoseconds: 2500
+Nanoseconds: 1700
 
  0  0  0  0  0 
  0  0  0  0  0 
@@ -503,7 +503,7 @@ Weights:
 Values: 
 Total Weight: 0
 Total Value: 0
-Nanoseconds: 2600
+Nanoseconds: 1700
 
  0  0  0  0  0 
  0  0  0  0  0 
@@ -514,7 +514,7 @@ Weights:
 Values: 
 Total Weight: 0
 Total Value: 0
-Nanoseconds: 2700
+Nanoseconds: 1900
 
  0  0  0  0  0 
  0  0  0  0  0 
@@ -525,7 +525,7 @@ Weights: 5
 Values: 67 
 Total Weight: 5
 Total Value: 67
-Nanoseconds: 3700
+Nanoseconds: 2200
 
  0  0  0  0  0 
  0  0  0  0  0 
@@ -536,7 +536,7 @@ Weights: 4
 Values: 14 
 Total Weight: 4
 Total Value: 14
-Nanoseconds: 3800
+Nanoseconds: 2500
 
  0  0  0  0  0 
  0  0  0  0 14 
@@ -547,7 +547,7 @@ Weights: 4
 Values: 52 
 Total Weight: 4
 Total Value: 52
-Nanoseconds: 3200
+Nanoseconds: 2400
 
  0  0  0  0  0 
  0  0  0  0 52 
