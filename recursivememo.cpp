@@ -5,11 +5,7 @@
 #include <vector>
 #include <string>
 
-
 using namespace std;
-
-static unsigned int itemthreshold = 5;
-static int capacitythreshold = 30;
 
 struct Problem{
   vector<int> weights;
@@ -148,9 +144,7 @@ Solution knapsack(Problem problem){
 
   Solution solution;
   solution.items = items;
-  if(value.size()<=itemthreshold&&capacity<=capacitythreshold){
-    solution.knapsackvals = knapsackvals;
-  }
+  solution.knapsackvals = knapsackvals;
   solution.totalweight = totalweight;
   solution.totalvalue = totalvalue;
   solution.weights = sweights;
@@ -213,10 +207,10 @@ int main(int argc, char **argv){
     file << "Nanoseconds: " << s.nanotime << endl;
     file << endl;
 
-    //if item & capacity values below threshold, print matrix
+    //print matrix for first 3 solutions
     unsigned int toti = s.knapsackvals.size();
     int totc = s.capacity;
-    if(toti <= itemthreshold && totc <= capacitythreshold){
+    if(i<3){
       for(unsigned int j = 0; j < toti; j++){
         for(int k = 0; k < totc; k++){
           int tempval = s.knapsackvals[j][k];
