@@ -3,7 +3,6 @@
 #include <algorithm> //max function
 #include <chrono> //time
 #include <vector>
-#include <thread>
 #include <string>
 
 

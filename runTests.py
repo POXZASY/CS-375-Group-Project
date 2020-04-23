@@ -1,13 +1,14 @@
 import os
 import subprocess
 
+#number of tests
 numtests = 6
 
 dir = os.getcwd()
-dir1 = dir + "\\bottomup.exe"
-dir2 = dir + "\\recursivememo.exe"
+dir1 = dir + "\\bottomup"
+dir2 = dir + "\\recursivememo"
 
-#os.system("date")
+
 try:
     os.mkdir("output")
 except:
