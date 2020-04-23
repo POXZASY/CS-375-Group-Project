@@ -184,9 +184,9 @@ int main(int argc, char **argv){
   //top of file
   file << "Number of Problems: " << to_string(problems.size()) << endl;
   string totalruntimestr = to_string(totalruntime);
-  file << "Total Runtime: " << totalruntimestr << endl;
+  file << "Total Runtime: " << totalruntimestr << " nanoseconds" << endl;
   string avgruntimestr = to_string(totalruntime/problems.size());
-  file << "Average Runtime: " << avgruntimestr << endl;
+  file << "Average Runtime: " << avgruntimestr << " nanoseconds" << endl;
 
   //individual solutions to problems
   for(unsigned int i = 0; i < solutions.size(); i++){
