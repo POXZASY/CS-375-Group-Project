@@ -155,10 +155,10 @@ int main(int argc, char **argv){
   int totalruntime = 0;
   for(unsigned int i = 0; i < problems.size(); i++){
     //run the algorithm, and compute the time taken
-    chrono::high_resolution_clock::time_point start = chrono::high_resolution_clock::now(); //clock object from chrono library
+    chrono::steady_clock::time_point start = chrono::steady_clock::now(); //clock object from chrono library
     Solution solution = knapsack(problems[i]);
-    chrono::high_resolution_clock::time_point end = chrono::high_resolution_clock::now(); //clock object from chrono library
-    auto time_taken = std::chrono::duration_cast<std::chrono::nanoseconds>(end-start); //difference between start and end times
+    chrono::steady_clock::time_point end = chrono::steady_clock::now(); //clock object from chrono library
+    chrono::nanoseconds time_taken = std::chrono::duration_cast<std::chrono::nanoseconds>(end-start); //difference between start and end times
     solution.nanotime = time_taken.count();
     totalruntime+=solution.nanotime;
     solutions.push_back(solution);
