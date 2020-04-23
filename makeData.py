@@ -12,7 +12,7 @@ def getItems(N, weightRoof):
     weights = []
     profits = []
     for i in range(0, N):
-        weights.append(random.randint(0, weightRoof))
+        weights.append(random.randint(1, weightRoof))
         profits.append(random.randint(1, 101))
     return weights, profits
 
