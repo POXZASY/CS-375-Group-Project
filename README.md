@@ -13,8 +13,8 @@ Group work for CS 375 final project with Miguel Gomez, Nick Pellegrino, and Lark
 - Bottom Up: O(n\*C), since we do an O(1) calculation for each cell in the table (table size is n+1 \* C+1)
 
 # Classes & Interaction:
-- Use a struct to represent the problem information: weights of items, values of items, and the capacity
-- Use a struct to represent the solution information: the item numbers of the solution, weights of the items, values of the items, 2D matrix for the solution, total weight of all items, total value of all items, capacity of the problem, and the time spent computing the solution, in nanoseconds
+- Used a struct to represent the problem information: weights of items, values of items, and the capacity
+- Used a struct to represent the solution information: the item numbers of the solution, weights of the items, values of the items, 2D matrix for the solution, total weight of all items, total value of all items, capacity of the problem, and the time spent computing the solution, in nanoseconds
 
 # Data Structures & Implementation:
 - All arrays for weights, values, the 2D solution matrix, etc used vectors from the standard C++ library
