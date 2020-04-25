@@ -4,6 +4,8 @@ make: bottomup.cpp recursivememo.cpp
 winclean:
 	del bottomup.exe
 	del recursivememo.exe
+	del .DS_Store
 clean:
 	rm bottomup
 	rm recursivememo
+	rm .DS_Store
