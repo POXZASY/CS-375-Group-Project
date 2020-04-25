@@ -2,7 +2,7 @@ import os
 import subprocess
 
 #number of tests
-numtests = 6
+numtests = 10
 
 dir = os.getcwd()
 dir1 = dir + "\\bottomup"
