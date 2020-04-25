@@ -53,7 +53,7 @@ vector<string> strsplit(string str){
 //2 mod 3 the values
 //0 mod 3 the capacity
 vector<Problem> getProblems(string filename){
-  vector<Problem> problems;
+  vector<Problem> problems; //the problems in the file
   ifstream file; //holds the file object from fstream library
   file.open(filename);
   int counter = 0; //counts line being read
@@ -95,22 +95,26 @@ Solution knapsack(Problem problem){
   for(unsigned int i = 0; i <= weight.size(); i++){
     vector<int> temp; //temporary 1D vector to be added as an element of the 2D vector knapsackvals
     for(int j = 0; j <= capacity; j++){
-      temp.push_back(-1);
+      if(i==0 || j==0) temp.push_back(0);
+      else temp.push_back(-1);
     }
     knapsackvals.push_back(temp);
   }
+
+  //bottomup implementation
   int maxi = weight.size(); //number of items total
   for(int i = 0; i <= maxi; i++){
     for(int c = 0; c <= capacity; c++){
       if(i==0||c==0) knapsackvals[i][c]=0;
       else{
-        int weighti = weight[i-1];
-        int profiti = value[i-1];
+        int weighti = weight[i-1]; //weight of last relative item
+        int profiti = value[i-1]; //value of last relative item
         if(weighti > c) knapsackvals[i][c]=knapsackvals[i-1][c];
         else knapsackvals[i][c]=max(knapsackvals[i-1][c], knapsackvals[i-1][c-weighti]+profiti);
       }
     }
   }
+
   //iterate through populated knapsackvals for solution
   vector<int> items; //items in the solution
   vector<int> sweights; //weights of the solution items, corresponding by index
@@ -154,11 +158,11 @@ int main(int argc, char **argv){
   //generate the solutions
   vector<Problem> problems = getProblems(inputstr); //vector of all problems to solve
   vector<Solution> solutions; //vector of solutions to problems, to be populated
-  int totalruntime = 0;
+  int totalruntime = 0; //increments the runtime for all tests
   for(unsigned int i = 0; i < problems.size(); i++){
     //run the algorithm, and compute the time taken
     chrono::steady_clock::time_point start = chrono::steady_clock::now(); //clock object from chrono library
-    Solution solution = knapsack(problems[i]);
+    Solution solution = knapsack(problems[i]); //get teh solutino for a specific problem
     chrono::steady_clock::time_point end = chrono::steady_clock::now(); //clock object from chrono library
     chrono::nanoseconds time_taken = std::chrono::duration_cast<std::chrono::nanoseconds>(end-start); //difference between start and end times
     solution.nanotime = time_taken.count();
@@ -166,20 +170,20 @@ int main(int argc, char **argv){
     solutions.push_back(solution);
   }
   //write solutions to file
-  ofstream file;
+  ofstream file; //output stream object
   file.open(outputstr);
 
   //top of file
   file << "Number of Problems: " << to_string(problems.size()) << endl;
-  string totalruntimestr = to_string(totalruntime);
+  string totalruntimestr = to_string(totalruntime); //string for the total runtime of the program's knapsack computations
   file << "Total Runtime: " << totalruntimestr << " nanoseconds" << endl;
-  string avgruntimestr = to_string(totalruntime/problems.size());
+  string avgruntimestr = to_string(totalruntime/problems.size()); //string for the average runtime of the program's knapsack computations
   file << "Average Runtime: " << avgruntimestr << " nanoseconds" << endl;
 
   //individual solutions to problems
   for(unsigned int i = 0; i < solutions.size(); i++){
     file << "---------------------------------------" << endl;
-    Solution s = solutions[i];
+    Solution s = solutions[i]; //current solution
     int itemindex = s.items.size()-1; //used to print items in proper order
     file << "Solution to Problem " << i+1 << endl;
     file << "Items: ";
@@ -203,13 +207,13 @@ int main(int argc, char **argv){
     file << endl;
 
     //print matrix for first 3 solutions
-    unsigned int toti = s.knapsackvals.size();
-    int totc = s.capacity;
+    unsigned int toti = s.knapsackvals.size(); //number of items i
+    int totc = s.capacity; //capacity c
     if(i<3){
       for(unsigned int j = 0; j < toti; j++){
         for(int k = 0; k < totc; k++){
-          int tempval = s.knapsackvals[j][k];
-          string aspace, val;
+          int tempval = s.knapsackvals[j][k]; //value for specific i, c in matrix
+          string aspace, val; //strings for a possible space (if number is only one digit) and value of the element in the matrix
           if(tempval < 0){
             aspace = " ";
             val = "/";

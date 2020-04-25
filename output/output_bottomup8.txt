@@ -1,6 +1,6 @@
 Number of Problems: 50
-Total Runtime: 2903500 nanoseconds
-Average Runtime: 58070 nanoseconds
+Total Runtime: 1974200 nanoseconds
+Average Runtime: 39484 nanoseconds
 ---------------------------------------
 Solution to Problem 1
 Items: 14 34 45 53 
@@ -8,7 +8,7 @@ Weights: 1 1 1 2
 Values: 85 58 101 89 
 Total Weight: 5
 Total Value: 333
-Nanoseconds: 87700
+Nanoseconds: 50600
 
  0  0  0  0  0 
  0  0  0 39 39 
@@ -78,7 +78,7 @@ Weights: 2 1 1 1
 Values: 91 61 94 70 
 Total Weight: 5
 Total Value: 316
-Nanoseconds: 79100
+Nanoseconds: 43200
 
  0  0  0  0  0 
  0  0  0  0  0 
@@ -148,7 +148,7 @@ Weights: 1 1 1 1 1
 Values: 38 41 64 39 88 
 Total Weight: 5
 Total Value: 270
-Nanoseconds: 87300
+Nanoseconds: 48100
 
  0  0  0  0  0 
  0  0  0  0  0 
@@ -218,7 +218,7 @@ Weights: 1 1 2 1
 Values: 81 90 70 96 
 Total Weight: 5
 Total Value: 337
-Nanoseconds: 84500
+Nanoseconds: 45900
 
 ---------------------------------------
 Solution to Problem 5
@@ -227,7 +227,7 @@ Weights: 1 1 1 1 1
 Values: 83 78 79 65 81 
 Total Weight: 5
 Total Value: 386
-Nanoseconds: 80800
+Nanoseconds: 43500
 
 ---------------------------------------
 Solution to Problem 6
@@ -236,7 +236,7 @@ Weights: 1 1 1 1 1
 Values: 96 76 89 56 77 
 Total Weight: 5
 Total Value: 394
-Nanoseconds: 79900
+Nanoseconds: 43100
 
 ---------------------------------------
 Solution to Problem 7
@@ -245,7 +245,7 @@ Weights: 2 1 1 1
 Values: 77 68 75 42 
 Total Weight: 5
 Total Value: 262
-Nanoseconds: 85600
+Nanoseconds: 45700
 
 ---------------------------------------
 Solution to Problem 8
@@ -254,7 +254,7 @@ Weights: 1 2 1 1
 Values: 72 95 71 76 
 Total Weight: 5
 Total Value: 314
-Nanoseconds: 84700
+Nanoseconds: 46700
 
 ---------------------------------------
 Solution to Problem 9
@@ -263,7 +263,7 @@ Weights: 1 2 1 1
 Values: 67 80 62 35 
 Total Weight: 5
 Total Value: 244
-Nanoseconds: 78300
+Nanoseconds: 43000
 
 ---------------------------------------
 Solution to Problem 10
@@ -272,7 +272,7 @@ Weights: 1 2 1 1
 Values: 40 100 85 58 
 Total Weight: 5
 Total Value: 283
-Nanoseconds: 86200
+Nanoseconds: 46700
 
 ---------------------------------------
 Solution to Problem 11
@@ -281,7 +281,7 @@ Weights: 2 1 2
 Values: 97 61 82 
 Total Weight: 5
 Total Value: 240
-Nanoseconds: 78000
+Nanoseconds: 41800
 
 ---------------------------------------
 Solution to Problem 12
@@ -290,7 +290,7 @@ Weights: 1 3 1
 Values: 97 87 24 
 Total Weight: 5
 Total Value: 208
-Nanoseconds: 74100
+Nanoseconds: 42400
 
 ---------------------------------------
 Solution to Problem 13
@@ -299,7 +299,7 @@ Weights: 1 1 1 1 1
 Values: 99 63 56 93 57 
 Total Weight: 5
 Total Value: 368
-Nanoseconds: 68100
+Nanoseconds: 41500
 
 ---------------------------------------
 Solution to Problem 14
@@ -308,7 +308,7 @@ Weights: 2 1 1 1
 Values: 101 96 100 54 
 Total Weight: 5
 Total Value: 351
-Nanoseconds: 86300
+Nanoseconds: 46400
 
 ---------------------------------------
 Solution to Problem 15
@@ -317,7 +317,7 @@ Weights: 1 1 1 1 1
 Values: 100 71 89 92 93 
 Total Weight: 5
 Total Value: 445
-Nanoseconds: 77200
+Nanoseconds: 41500
 
 ---------------------------------------
 Solution to Problem 16
@@ -326,7 +326,7 @@ Weights: 2 2 1
 Values: 95 99 60 
 Total Weight: 5
 Total Value: 254
-Nanoseconds: 92500
+Nanoseconds: 48600
 
 ---------------------------------------
 Solution to Problem 17
@@ -335,7 +335,7 @@ Weights: 1 1 2 1
 Values: 54 99 70 54 
 Total Weight: 5
 Total Value: 277
-Nanoseconds: 72400
+Nanoseconds: 38800
 
 ---------------------------------------
 Solution to Problem 18
@@ -344,7 +344,7 @@ Weights: 1 1 1 2
 Values: 70 74 55 90 
 Total Weight: 5
 Total Value: 289
-Nanoseconds: 59400
+Nanoseconds: 37700
 
 ---------------------------------------
 Solution to Problem 19
@@ -353,7 +353,7 @@ Weights: 1 1 2 1
 Values: 75 91 99 84 
 Total Weight: 5
 Total Value: 349
-Nanoseconds: 59700
+Nanoseconds: 33300
 
 ---------------------------------------
 Solution to Problem 20
@@ -362,7 +362,7 @@ Weights: 1 1 1 1 1
 Values: 66 83 81 100 37 
 Total Weight: 5
 Total Value: 367
-Nanoseconds: 56800
+Nanoseconds: 33800
 
 ---------------------------------------
 Solution to Problem 21
@@ -371,7 +371,7 @@ Weights: 1 1 1 1 1
 Values: 65 61 76 63 83 
 Total Weight: 5
 Total Value: 348
-Nanoseconds: 59700
+Nanoseconds: 34500
 
 ---------------------------------------
 Solution to Problem 22
@@ -380,7 +380,7 @@ Weights: 2 1 1 1
 Values: 100 73 86 89 
 Total Weight: 5
 Total Value: 348
-Nanoseconds: 69500
+Nanoseconds: 42000
 
 ---------------------------------------
 Solution to Problem 23
@@ -389,7 +389,7 @@ Weights: 1 1 1 1 1
 Values: 95 71 77 54 100 
 Total Weight: 5
 Total Value: 397
-Nanoseconds: 58400
+Nanoseconds: 33600
 
 ---------------------------------------
 Solution to Problem 24
@@ -398,7 +398,7 @@ Weights: 1 1 1 1 1
 Values: 66 94 81 91 65 
 Total Weight: 5
 Total Value: 397
-Nanoseconds: 55500
+Nanoseconds: 34100
 
 ---------------------------------------
 Solution to Problem 25
@@ -407,7 +407,7 @@ Weights: 1 1 1 1 1
 Values: 91 47 66 55 65 
 Total Weight: 5
 Total Value: 324
-Nanoseconds: 57000
+Nanoseconds: 34400
 
 ---------------------------------------
 Solution to Problem 26
@@ -416,7 +416,7 @@ Weights: 1 2 1 1
 Values: 57 101 81 80 
 Total Weight: 5
 Total Value: 319
-Nanoseconds: 68000
+Nanoseconds: 40800
 
 ---------------------------------------
 Solution to Problem 27
@@ -425,7 +425,7 @@ Weights: 1 1 1 1 1
 Values: 59 61 53 82 86 
 Total Weight: 5
 Total Value: 341
-Nanoseconds: 56900
+Nanoseconds: 52900
 
 ---------------------------------------
 Solution to Problem 28
@@ -434,7 +434,7 @@ Weights: 2 1 1 1
 Values: 95 78 69 91 
 Total Weight: 5
 Total Value: 333
-Nanoseconds: 56200
+Nanoseconds: 34400
 
 ---------------------------------------
 Solution to Problem 29
@@ -443,7 +443,7 @@ Weights: 1 1 1 1 1
 Values: 101 78 71 75 81 
 Total Weight: 5
 Total Value: 406
-Nanoseconds: 56800
+Nanoseconds: 34900
 
 ---------------------------------------
 Solution to Problem 30
@@ -452,7 +452,7 @@ Weights: 1 1 1 1 1
 Values: 59 51 49 18 88 
 Total Weight: 5
 Total Value: 265
-Nanoseconds: 67000
+Nanoseconds: 40500
 
 ---------------------------------------
 Solution to Problem 31
@@ -461,7 +461,7 @@ Weights: 1 2 1 1
 Values: 48 82 92 50 
 Total Weight: 5
 Total Value: 272
-Nanoseconds: 54800
+Nanoseconds: 33800
 
 ---------------------------------------
 Solution to Problem 32
@@ -470,7 +470,7 @@ Weights: 1 1 1 1 1
 Values: 61 59 71 75 70 
 Total Weight: 5
 Total Value: 336
-Nanoseconds: 39600
+Nanoseconds: 33900
 
 ---------------------------------------
 Solution to Problem 33
@@ -479,7 +479,7 @@ Weights: 1 2 1 1
 Values: 96 97 61 64 
 Total Weight: 5
 Total Value: 318
-Nanoseconds: 34900
+Nanoseconds: 34200
 
 ---------------------------------------
 Solution to Problem 34
@@ -488,7 +488,7 @@ Weights: 1 1 1 1 1
 Values: 92 72 65 58 66 
 Total Weight: 5
 Total Value: 353
-Nanoseconds: 48400
+Nanoseconds: 46600
 
 ---------------------------------------
 Solution to Problem 35
@@ -497,7 +497,7 @@ Weights: 1 2 1 1
 Values: 83 91 94 88 
 Total Weight: 5
 Total Value: 356
-Nanoseconds: 34700
+Nanoseconds: 43300
 
 ---------------------------------------
 Solution to Problem 36
@@ -506,7 +506,7 @@ Weights: 1 2 1 1
 Values: 55 99 87 44 
 Total Weight: 5
 Total Value: 285
-Nanoseconds: 33400
+Nanoseconds: 35700
 
 ---------------------------------------
 Solution to Problem 37
@@ -515,7 +515,7 @@ Weights: 1 1 1 1 1
 Values: 64 41 99 55 62 
 Total Weight: 5
 Total Value: 321
-Nanoseconds: 33500
+Nanoseconds: 33600
 
 ---------------------------------------
 Solution to Problem 38
@@ -524,7 +524,7 @@ Weights: 1 1 1 1 1
 Values: 69 97 70 76 72 
 Total Weight: 5
 Total Value: 384
-Nanoseconds: 38300
+Nanoseconds: 34100
 
 ---------------------------------------
 Solution to Problem 39
@@ -533,7 +533,7 @@ Weights: 1 1 1 1 1
 Values: 77 79 94 59 85 
 Total Weight: 5
 Total Value: 394
-Nanoseconds: 33700
+Nanoseconds: 43800
 
 ---------------------------------------
 Solution to Problem 40
@@ -542,7 +542,7 @@ Weights: 1 1 1 1 1
 Values: 94 91 93 97 86 
 Total Weight: 5
 Total Value: 461
-Nanoseconds: 33700
+Nanoseconds: 34500
 
 ---------------------------------------
 Solution to Problem 41
@@ -551,7 +551,7 @@ Weights: 1 1 1 2
 Values: 99 62 82 94 
 Total Weight: 5
 Total Value: 337
-Nanoseconds: 34100
+Nanoseconds: 34200
 
 ---------------------------------------
 Solution to Problem 42
@@ -560,7 +560,7 @@ Weights: 2 1 1 1
 Values: 87 100 43 47 
 Total Weight: 5
 Total Value: 277
-Nanoseconds: 43900
+Nanoseconds: 45800
 
 ---------------------------------------
 Solution to Problem 43
@@ -569,7 +569,7 @@ Weights: 1 1 1 2
 Values: 44 93 79 94 
 Total Weight: 5
 Total Value: 310
-Nanoseconds: 33400
+Nanoseconds: 33200
 
 ---------------------------------------
 Solution to Problem 44
@@ -578,7 +578,7 @@ Weights: 1 1 1 2
 Values: 79 54 56 84 
 Total Weight: 5
 Total Value: 273
-Nanoseconds: 33300
+Nanoseconds: 33200
 
 ---------------------------------------
 Solution to Problem 45
@@ -587,7 +587,7 @@ Weights: 2 2 1
 Values: 95 96 76 
 Total Weight: 5
 Total Value: 267
-Nanoseconds: 33400
+Nanoseconds: 33100
 
 ---------------------------------------
 Solution to Problem 46
@@ -596,7 +596,7 @@ Weights: 3 2
 Values: 99 75 
 Total Weight: 5
 Total Value: 174
-Nanoseconds: 32900
+Nanoseconds: 32700
 
 ---------------------------------------
 Solution to Problem 47
@@ -605,7 +605,7 @@ Weights: 1 1 1 1 1
 Values: 77 101 21 98 98 
 Total Weight: 5
 Total Value: 395
-Nanoseconds: 33400
+Nanoseconds: 33600
 
 ---------------------------------------
 Solution to Problem 48
@@ -614,7 +614,7 @@ Weights: 1 1 1 1 1
 Values: 65 96 36 97 73 
 Total Weight: 5
 Total Value: 367
-Nanoseconds: 33900
+Nanoseconds: 33800
 
 ---------------------------------------
 Solution to Problem 49
@@ -623,7 +623,7 @@ Weights: 2 1 2
 Values: 83 39 82 
 Total Weight: 5
 Total Value: 204
-Nanoseconds: 33300
+Nanoseconds: 33600
 
 ---------------------------------------
 Solution to Problem 50
@@ -632,6 +632,6 @@ Weights: 1 1 1 1 1
 Values: 77 100 46 90 53 
 Total Weight: 5
 Total Value: 366
-Nanoseconds: 43300
+Nanoseconds: 43100
 
 
